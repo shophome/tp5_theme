@@ -1,13 +1,13 @@
 # tp5_theme
 
-安装  `composer install samplecms/tp5_theme`
+安装  `composer require samplecms/tp5_theme:dev-master`
 
 
 事例
 
 		<?php
 		namespace app\index\controller;
-		use tp\Theme;
+		use tp\theme\Theme;
 		class Index extends Theme
 		{
 			public $theme = 'default';

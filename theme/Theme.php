@@ -1,5 +1,5 @@
 <?php
-namespace tp;
+namespace tp\theme;
 use think\Controller;
 use think\Config;
 use think\Request;

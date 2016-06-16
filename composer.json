@@ -16,14 +16,10 @@
     "require": {
         "php": ">=5.4.0"
     },
-    "minimum-stability": "dev",
-    "config": {
-        "preferred-install": "dist"
-    },
     "autoload": {
          
          "psr-4": {
-            "tp\\": "./"
+            "tp\\theme\\": "./theme"
         } 
     }
 }
