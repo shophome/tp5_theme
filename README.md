@@ -1,6 +1,9 @@
 # tp5_theme
-thinkphp5 theme composer方式安装 
 
+安装  `composer install samplecms/tp5_theme`
+
+
+事例
 
 		<?php
 		namespace app\index\controller;
