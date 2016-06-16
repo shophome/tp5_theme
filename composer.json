@@ -1,0 +1,29 @@
+{
+    "name": "samplecms/tp5_theme",
+    "description": "thinkphp5 theme",
+    "type": "theme",
+    "keywords": [
+        "theme",
+        "thinkphp"
+    ],
+    "license": "BSD",
+    "authors": [
+        {
+            "name": "Sun Kang",
+            "email": "http://weibo.com/sunkangchina"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "minimum-stability": "dev",
+    "config": {
+        "preferred-install": "dist"
+    },
+    "autoload": {
+         
+         "psr-4": {
+            "tp\\": "./"
+        } 
+    }
+}
