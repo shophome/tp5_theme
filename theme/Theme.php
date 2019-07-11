@@ -65,7 +65,7 @@ class Theme extends Controller
             
             if(!is_file($file)){  
                 Log::record("主题文件不存在".$file,'notice');
-                $this->set_theme('');
+                $this->set_theme($this->theme);
                 if (is_null(self::$view_instance)) {
                     self::$view_instance = new View(Config::get('template'), Config::get('view_replace_str'));
                 }
