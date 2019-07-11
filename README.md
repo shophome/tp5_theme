@@ -1,6 +1,6 @@
 # tp5_theme
 
-安装  `composer require samplecms/tp5_theme`
+安装  `composer require shophome/tp5_theme`
 
 
 事例
