@@ -1,5 +1,5 @@
 {
-    "name": "samplecms/tp5_theme",
+    "name": "shophome/tp5_theme",
     "description": "thinkphp5 theme",
     "type": "theme",
     "keywords": [
@@ -9,8 +9,8 @@
     "license": "BSD",
     "authors": [
         {
-            "name": "Sun Kang",
-            "link": "http://weibo.com/sunkangchina"
+            "name": "懒人程序",
+            "link": "http://kuitao8.com"
         }
     ],
     "require": {
